@@ -14,7 +14,7 @@ dependencies {
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.8.1")
     implementation("org.eclipse.jetty:jetty-server:9.3.0.M1")
     implementation("org.eclipse.jetty:jetty-webapp:9.3.0.M0")
-    implementation("org.freemarker:freemarker:2.3.23")
+    implementation("org.freemarker:freemarker:2.3.20")
 
 
 }

@@ -10,7 +10,7 @@ public class Main {
         MirrorServlet mirrorServlet = new MirrorServlet();
 
         ServletContextHandler servletContextHandler = new ServletContextHandler(ServletContextHandler.SESSIONS);
-        servletContextHandler.addServlet(new ServletHolder(mirrorServlet), "/mirror");
+        servletContextHandler.addServlet(new ServletHolder(mirrorServlet), "/*");
 
         Server server = new Server(8080);
         server.setHandler(servletContextHandler);
