@@ -15,6 +15,7 @@ dependencies {
     implementation("org.eclipse.jetty:jetty-server:9.3.0.M1")
     implementation("org.eclipse.jetty:jetty-webapp:9.3.0.M0")
     implementation("org.freemarker:freemarker:2.3.20")
+    implementation("org.apache.logging.log4j:log4j:2.17.1")
 
 
 }
