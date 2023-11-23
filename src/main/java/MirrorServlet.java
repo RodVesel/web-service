@@ -14,7 +14,7 @@ public class MirrorServlet extends HttpServlet {
         Map<String, Object> pageVariables = createPageVariablesMap(req);
 //        pageVariables.put("key", "");
 
-        resp.getWriter().println(PageGenerator.instance().getPage("page.html", pageVariables));
+        resp.getWriter().println(req.getParameter("key"));
 
         resp.setContentType("text/html;charset=utf-8");
         resp.setStatus(HttpServletResponse.SC_OK);
